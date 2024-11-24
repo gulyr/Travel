@@ -6,6 +6,7 @@ import Img4 from '../../assets/images/home-mountain.jpg'
 import Img5 from '../../assets/images/home-beach.jpg'
 import { IoMdArrowForward } from 'react-icons/io'
 import '../../assets/js/scrollreveal.min.js'
+import { HashLink as Link } from 'react-router-hash-link'
 
 const HomeSection = () => {
   return (
@@ -30,12 +31,19 @@ const HomeSection = () => {
             Live the trips exploring the world, discover paradises, islands,
             mountains and much more, get your trip now.
           </p>
-          <a
+          {/* <a
             href="#"
             className="button"
           >
             Start Your Journey <IoMdArrowForward className="icon" />
-          </a>
+          </a> */}
+          <Link
+            smooth
+            to={'#about'}
+            className="button"
+          >
+            Start Your Journey <IoMdArrowForward className="icon" />
+          </Link>
         </div>
         <div className="home_cards grid">
           <article className="home_card">

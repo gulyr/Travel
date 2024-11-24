@@ -1,9 +1,9 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import { FaFacebookF } from 'react-icons/fa'
 import { FaInstagram } from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6'
 import { FaYoutube } from 'react-icons/fa'
+import { HashLink as Link } from 'react-router-hash-link'
 
 const Footer = () => {
   return (
@@ -11,13 +11,8 @@ const Footer = () => {
       <div className="footer_container container grid">
         <div className="footer_content grid">
           <div>
-            {/* <a
-              href="#"
-              class="footer_logo"
-            >
-              Travel
-            </a> */}
             <Link
+              smooth
               to={'#'}
               className="footer_logo"
             >
@@ -33,6 +28,7 @@ const Footer = () => {
               <ul className="footer_links">
                 <li>
                   <Link
+                    smooth
                     to={'#'}
                     className="footer_link"
                   >
@@ -41,6 +37,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
+                    smooth
                     to={'#'}
                     className="footer_link"
                   >
@@ -49,6 +46,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
+                    smooth
                     to={'#'}
                     className="footer_link"
                   >
@@ -63,6 +61,7 @@ const Footer = () => {
               <ul className="footer_links">
                 <li>
                   <Link
+                    smooth
                     to={'#'}
                     className="footer_link"
                   >
@@ -71,6 +70,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
+                    smooth
                     to={'#'}
                     className="footer_link"
                   >
@@ -79,6 +79,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
+                    smooth
                     to={'#'}
                     className="footer_link"
                   >
@@ -93,6 +94,7 @@ const Footer = () => {
               <ul className="footer_links">
                 <li>
                   <Link
+                    smooth
                     to={'#'}
                     className="footer_link"
                   >
@@ -101,6 +103,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
+                    smooth
                     to={'#'}
                     className="footer_link"
                   >
@@ -109,6 +112,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
+                    smooth
                     to={'#'}
                     className="footer_link"
                   >
@@ -123,6 +127,7 @@ const Footer = () => {
               <ul className="footer_links">
                 <li>
                   <Link
+                    smooth
                     to={'#'}
                     className="footer_link"
                   >
@@ -131,6 +136,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
+                    smooth
                     to={'#'}
                     className="footer_link"
                   >
@@ -139,6 +145,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
+                    smooth
                     to={'#'}
                     className="footer_link"
                   >
@@ -152,6 +159,7 @@ const Footer = () => {
         <div className="footer_group">
           <div className="footer_social">
             <Link
+              smooth
               to={'https://www.facebook.com/'}
               target="_blank"
               className="footer_social_link"
@@ -159,6 +167,7 @@ const Footer = () => {
               <FaFacebookF className="icon" />
             </Link>
             <Link
+              smooth
               to={'https://www.instagram.com/'}
               target="_blank"
               className="footer_social_link"
@@ -166,6 +175,7 @@ const Footer = () => {
               <FaInstagram className="icon" />
             </Link>
             <Link
+              smooth
               to={'https://twitter.com/'}
               target="_blank"
               className="footer_social_link"
@@ -173,6 +183,7 @@ const Footer = () => {
               <FaXTwitter className="icon" />
             </Link>
             <Link
+              smooth
               to={'https://www.youtube.com/'}
               target="_blank"
               className="footer_social_link"
@@ -180,10 +191,7 @@ const Footer = () => {
               <FaYoutube className="icon" />
             </Link>
           </div>
-          <span className="footer_copy">
-            {' '}
-            &#169; Created by Gul Rasulzada.{' '}
-          </span>
+          <span className="footer_copy">&#169; Created by Gul Rasulzada</span>
         </div>
       </div>
     </footer>

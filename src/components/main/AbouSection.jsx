@@ -1,7 +1,7 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import { IoMdArrowForward } from 'react-icons/io'
 import Img1 from '../../assets/images/about-beach.jpg'
+import { HashLink as Link } from 'react-router-hash-link'
 
 const AboutSection = () => {
   return (
@@ -21,6 +21,7 @@ const AboutSection = () => {
             of the world.
           </p>
           <Link
+            smooth
             to={'#'}
             className="button"
           >
