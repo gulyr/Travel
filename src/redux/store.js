@@ -1,6 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit'
 import menuSliceReducer from './slices/menuSlice'
-import scrollUpReducer from './slices/scrollupSlice.js'
+import scrollUpReducer from './slices/scrollUpSlice.js'
 
 const store = configureStore({
     reducer: {
