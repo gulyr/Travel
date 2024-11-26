@@ -1,20 +1,13 @@
-import React from 'react'
-import Img1 from '../../assets/images/explore-beach.jpg'
-import Img2 from '../../assets/images/explore-perfil.png'
+import React from "react";
+import Img1 from "../../assets/images/explore-beach.webp";
+import Img2 from "../../assets/images/explore-perfil.png";
 
 const ExploreSection = () => {
   return (
-    <section
-      className="explore section"
-      id="explore"
-    >
+    <section className="explore section" id="explore">
       <div className="explore_container">
         <div className="explore_image">
-          <img
-            src={Img1}
-            alt="Explore image"
-            className="explore_img"
-          />
+          <img src={Img1} alt="Explore image" className="explore_img" />
           <div className="explore_shadow"></div>
         </div>
         <div className="explore_content container grid">
@@ -30,17 +23,13 @@ const ExploreSection = () => {
             </p>
           </div>
           <div className="explore_user">
-            <img
-              src={Img2}
-              alt="Explore image"
-              className="explore_perfil"
-            />
+            <img src={Img2} alt="Explore image" className="explore_perfil" />
             <span className="explore_name">Paul Jeams</span>
           </div>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default ExploreSection
+export default ExploreSection;
