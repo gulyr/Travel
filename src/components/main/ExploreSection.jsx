@@ -1,5 +1,5 @@
 import React from "react";
-import Img1 from "../../assets/images/explore-beach.webp";
+import Img1 from "../../assets/images/explore-beach.jpg";
 import Img2 from "../../assets/images/explore-perfil.png";
 
 const ExploreSection = () => {
