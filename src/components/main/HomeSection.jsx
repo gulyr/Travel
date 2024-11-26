@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Img1 from "../../assets/images/home-bg.jpg";
+import Img1 from "../../assets/images/home-bg.webp";
 import Img2 from "../../assets/images/home-trees.jpg";
 import Img3 from "../../assets/images/home-lake.jpg";
 import Img4 from "../../assets/images/home-mountain.jpg";
